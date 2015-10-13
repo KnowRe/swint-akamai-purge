@@ -4,6 +4,8 @@ var path = require('path'),
 	assert = require('assert'),
 	swintAkamaiPurge = require('../lib');
 
+global.swintVar.printLevel = 5;
+
 describe('secret', function() {
 	this.timeout(10000);
 	
