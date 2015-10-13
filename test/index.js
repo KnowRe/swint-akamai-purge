@@ -1,5 +1,4 @@
-var s3 = require('s3'),
-	path = require('path'),
+var path = require('path'),
 	fs = require('fs'),
 	os = require('os'),
 	assert = require('assert'),
