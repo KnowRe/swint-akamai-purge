@@ -6,8 +6,8 @@ var path = require('path'),
 
 // global.swintVar.printLevel = 5;
 
-describe('secret', function() {
-	this.timeout(10000);
+describe('Akamai purge', function() {
+	this.timeout(20000);
 	
 	it('Error when no callback', function() {
 		assert.throws(function() {
@@ -38,6 +38,8 @@ describe('secret', function() {
 				prefix: process.env.SWINT_AKAMAI_PURGE_TEST_PREFIX
 			};
 		}
+
+		print(cred.user, cred.prefix);
 
 		swintAkamaiPurge({
 			dir: path.join(__dirname, '../test_case'),
