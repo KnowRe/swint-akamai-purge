@@ -25,8 +25,19 @@ describe('secret', function() {
 	});
 
 	it('Simple case', function(done) {
-		var credPath = path.join(process.env.HOME, '.swint', 'swint-akamai-purge.json'),
+		var credPath = path.join(process.env.HOME, '.swint', 'swint-akamai-purge-test.json'),
+			cred;
+
+		try {
+			fs.accessSync(credPath);
 			cred = JSON.parse(fs.readFileSync(credPath));
+		} catch(e) {
+			cred = {
+				user: process.env.SWINT_AKAMAI_PURGE_TEST_USER,
+				password: process.env.SWINT_AKAMAI_PURGE_TEST_PASSWORD,
+				prefix: process.env.SWINT_AKAMAI_PURGE_TEST_PREFIX
+			};
+		}
 
 		swintAkamaiPurge({
 			dir: path.join(__dirname, '../test_case'),
