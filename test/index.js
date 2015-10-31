@@ -39,7 +39,7 @@ describe('Akamai purge', function() {
 			};
 		}
 
-		print(cred.user, cred.prefix);
+		print(cred.password[0], cred.password[1], cred.password[2]);
 
 		swintAkamaiPurge({
 			dir: path.join(__dirname, '../test_case'),
