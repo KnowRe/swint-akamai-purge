@@ -4,7 +4,7 @@ var path = require('path'),
 	assert = require('assert'),
 	swintAkamaiPurge = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('Akamai purge', function() {
 	this.timeout(20000);
