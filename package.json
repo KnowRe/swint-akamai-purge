@@ -1,6 +1,6 @@
 {
   "name": "swint-akamai-purge",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sending purge request on akamai for Swint batch task manager(swint-task)",
   "main": "lib/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   "bugs": {
     "url": "https://github.com/KnowRe/swint-akamai-purge/issues"
   },
-  "engines" : {
-    "node" : ">=4.0.0"
+  "engines": {
+    "node": ">=4.0.0"
   },
   "homepage": "https://github.com/KnowRe/swint-akamai-purge",
   "dependencies": {
