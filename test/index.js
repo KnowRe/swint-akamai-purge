@@ -4,7 +4,7 @@ var path = require('path'),
 	assert = require('assert'),
 	swintAkamaiPurge = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('Akamai purge', function() {
 	this.timeout(20000);
@@ -39,12 +39,6 @@ describe('Akamai purge', function() {
 			};
 		}
 
-		print(cred.user);
-		print(cred.password[0]);
-		print(cred.password[1]);
-		print(cred.password[2]);
-		print(cred.prefix);
-
 		swintAkamaiPurge({
 			dir: path.join(__dirname, '../test_case'),
 			urlPrefix: cred.prefix,
@@ -53,11 +47,6 @@ describe('Akamai purge', function() {
 				password: cred.password
 			}
 		}, function(err, res) {
-			if(err) {
-				print(4, err);
-				process.exit(-1);
-				return;
-			}
 			assert.equal(res.httpStatus, 201);
 			done();
 		});
