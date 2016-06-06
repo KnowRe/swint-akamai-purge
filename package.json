@@ -1,6 +1,6 @@
 {
   "name": "swint-akamai-purge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sending purge request on akamai for Swint batch task manager(swint-task)",
   "main": "lib/index.js",
   "scripts": {
