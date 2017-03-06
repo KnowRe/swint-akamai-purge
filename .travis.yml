@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "7.4.0"
+  - "7.7.1"
   - "7.0.0"
-  - "6.9.4"
+  - "6.10.0"
   - "6.0.0"
 deploy:
   provider: npm
@@ -11,7 +11,7 @@ deploy:
     secure: "F5PiuQX1to7273lJUY/urhYGUNaGTCkKibF11ZYy4+IQ4G2HyIoVTTfA6Ut1oRrkMeRs/nSnIt8c2AQMu4y1sBaTS31twyY94XtttGkMKI6ATHNttvyttLBCf75u2RLNNECXnE8OdqWbbQ0AudM9qYvVVM5+aJEMlhVde4WFglh3O+cxQ7DUpLfMx8B5EhG06Z1Q/IXULEmumt5E0RMq8SPsVbU2QOMlXjGgbP/nTFdHIz4wX1pOu3iPaqEJS+oVIWw5q+M6mRJbkzOeG9oI2S1cqHPmwiNgUNDUQ0axBOp5FBoNOl/nXKj1bbuj0h/sZf4g8EpunTu87lwqdFtFGlFFmAu2My1Baqi+1nBBCa4t5cWlCxg2AXbp/wkMK4gZttFA5yQBIubpqUT3x4VOIihZpT5xtNMJ02vPLgHn7C+PC/gGvlUUJGQMYvHxp+XjLvgxAqCDf6+OXAYmqiGSfI5bPHjaJJqYu7k6zbMvfqBAbr0wx37a9WpD2Z9XiO1VeqcIPHKj5NSccR2S5bdZ019kC+yYP+DjXmZpHrCIH8RdZ3FpD5LwOz63/N0wxVPhlD8CjbCR912jwC9BTz69tedfTDQqJsGDBjX2eVyIXGQhFTwIPuceoJu7p/rX5ug/SqRwXhMUq2uNnzWhKWS8jc693bc1fEii5TZoI5LOIqM="
   on:
     branch: stable
-    node_js: "7.4.0"
+    node_js: "7.7.1"
 notifications:
   slack:
     secure: "OsuCFIlYuqUvyrplWgHhRrg8BQaqr0xYHLbmRFELruMBCL3xvSXFRbJTaFmwDBxfUKfSGvayq+tylebovTyawgsPem4D4ZiJDmKd3tbmbEmtD+dJVCdgBvYON4aqpq+BqPixJiMEtco/iXp57J3HoPQfUKHlJOJ7F5+S4rf/SomdgQn5HQWjqWhtvsf7Rr97NCMRQy2HVY/IiTy9d3FOXbPIsE9VfXrWHom/+cxMzOp2/14OXWgB2pQG9qRf8tr/fAJCP8dUIIgpi3XtF43uPajD4ECqahyWBbUPKyTcaBssZSxutAe1dZ9PiQmCV4P2KZswstl0m+SUDFG6UgFy3uKiTrU7ud5Reyjs67hEa0QtErLtG7p0grPgSf4Sgxz8GyTp9fHrD4NF4C0wYUU2aiUgBibCM6UgPMc9rSx/j+5QWkId91PF78MSto7edlxBzeiLXGMrBlvAtNiSgBQMzWRkWfpRY2wqwqrqVwRVjMLySXwgMYeV+LEZJTSyD1Wu4VabICbbZfHqHvjg4YN7VPqNvDvwPNz7lDwAJwMzfFtXLImPYMRtDS20im3stWZ74Lk1wHn0JwnBjy9z/WQRESEBHIPaWa71C2ioLbjcMVYLeODGLGmkyLiQ5v3TBXlo1vgoBaE80bMtCcnSS625VfY/W316jTGrd1kONIGXLoQ="
