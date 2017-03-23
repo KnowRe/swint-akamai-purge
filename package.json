@@ -29,10 +29,10 @@
   "homepage": "https://github.com/KnowRe-Dev/swint-akamai-purge",
   "dependencies": {
     "akamai": "0.10.1",
-    "swint-helper": "1.2.2"
+    "swint-helper": "1.2.3"
   },
   "devDependencies": {
     "mocha": "3.2.0",
-    "eslint": "3.17.0"
+    "eslint": "3.18.0"
   }
 }
