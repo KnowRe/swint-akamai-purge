@@ -1,5 +1,7 @@
 # swint-akamai-purge
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Knowre-Dev/swint-akamai-purge.svg)](https://greenkeeper.io/)
+
 Sending purge request on akamai for Swint batch task manager(swint-task)
 
 **Warning: This is not the final draft yet, so do not use this until its official version is launched**
