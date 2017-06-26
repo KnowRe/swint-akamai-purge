@@ -1,5 +1,5 @@
 # swint-akamai-purge
-###DEPRECATED
+### DEPRECATED
 **This project is NOT maintained.**
 
 Sending purge request on akamai for Swint batch task manager(swint-task)
