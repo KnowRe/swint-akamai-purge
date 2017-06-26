@@ -4,7 +4,7 @@
   "description": "Sending purge request on akamai for Swint batch task manager(swint-task)",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib && mocha"
+    "test": "eslint lib"
   },
   "repository": {
     "type": "git",
