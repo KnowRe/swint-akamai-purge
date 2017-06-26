@@ -1,6 +1,6 @@
 # swint-akamai-purge
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/Knowre-Dev/swint-akamai-purge.svg)](https://greenkeeper.io/)
+###DEPRECATED
+**This project is NOT maintained.**
 
 Sending purge request on akamai for Swint batch task manager(swint-task)
 
