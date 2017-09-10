@@ -32,7 +32,7 @@
     "swint-helper": "1.2.5"
   },
   "devDependencies": {
-    "mocha": "3.4.2",
+    "mocha": "3.5.1",
     "eslint": "4.0.0"
   }
 }
